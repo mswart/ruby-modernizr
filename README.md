@@ -32,7 +32,7 @@ env.append_path Modernizr.path
 Usage
 -----
 
-Now you just need to require `modernizr` from your javascript bundle.
+Now you'll just need to require `modernizr` from your javascript bundle.
 
 ``` javascript
 //= require modernizr
@@ -55,7 +55,7 @@ See a full list of community detects under [feature-detects/](https://github.com
 Releases
 --------
 
-New versions of this gem will only be published when there is a new stable version of Modernizr. Maybe if they do an official beta, I might too. But no otherwise no untagged releases.
+New versions of this gem will only be published when there is a new stable version of Modernizr. Maybe if they do an official beta, I might too. But otherwise no untagged releases.
 
 
 
@@ -64,7 +64,7 @@ Caveats
 
 This project isn't that interesting, yet...
 
-If you look the [Modernizr download page](http://www.modernizr.com/download/), you'll notice you can customize and opt out of alot more stuff. With this library, only the community add-ons section is optional. Kind of sucks.
+If you look the [Modernizr download page](http://www.modernizr.com/download/), you'll notice you can customize and opt out of alot more stuff. At the moment, this library can only exclude the detections in the community add-ons section. Kinda sucks.
 
 Well, good news is that Modernizr v3 is supposed to moving most of its "core" feature detects out of the main file into seperate ones. Once this happens you'll be able to get the same level of granularity from this gem as the awesome download builder.
 
