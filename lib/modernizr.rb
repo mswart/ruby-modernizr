@@ -11,7 +11,7 @@ module Modernizr
   if defined? ::Rails::Railtie
     class Railtie < ::Rails::Railtie
       initializer "modernizr" do |app|
-        app.config.assets.path << Modernizr.path
+        app.config.assets.paths << Modernizr.path
       end
     end
   end
