@@ -68,4 +68,4 @@ If you look the [Modernizr download page](http://www.modernizr.com/download/), y
 
 Well, good news is that Modernizr v3 is supposed to moving most of its "core" feature detects out of the main file into seperate ones. Once this happens you'll be able to get the same level of granularity from this gem as the awesome download builder.
 
-Follow allow [Modernizr issue #486](https://github.com/Modernizr/Modernizr/issues/486).
+Follow along [Modernizr issue #486](https://github.com/Modernizr/Modernizr/issues/486).
