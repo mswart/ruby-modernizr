@@ -1,5 +1,5 @@
 module Modernizr
-  VERSION = "2.5.3"
+  VERSION = "2.6.1"
 
   PATH = File.expand_path("..", __FILE__)
 
