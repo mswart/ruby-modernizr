@@ -10,7 +10,7 @@ module Modernizr
   # Rails "Magic"
   if defined? ::Rails::Railtie
     class Railtie < ::Rails::Railtie
-      initializer "modernizr" do |app|
+      initializer "modernizr", :group => :all do |app|
         app.config.assets.paths << Modernizr.path
       end
     end
